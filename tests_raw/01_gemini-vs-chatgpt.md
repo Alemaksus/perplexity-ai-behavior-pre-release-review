@@ -117,7 +117,20 @@ Alternative interpretations or opposing viewpoints are not explicitly contrasted
 
 The answer does not clearly differentiate between established capabilities and reported user perceptions.
 
-## Notes
+## Failure Modes (derived from P1/P2, decision-oriented)
 
-<PASTE HERE>
+FM-01: Evidence quality mismatch
+- Pattern: claims are supported mainly by secondary/interpretive sources, while phrasing remains advisory/confident.
+- User impact: decision may be made on perceived consensus rather than primary evidence.
 
+FM-02: Source-to-claim traceability gap
+- Pattern: sources exist inline, but claim→source mapping is not always explicit for comparative statements.
+- User impact: verification effort increases; readers may accept conclusions without checking.
+
+FM-03: Uncertainty not surfaced as first-class
+- Pattern: limitations appear indirectly (e.g., “users report…”) rather than explicit uncertainty markers.
+- User impact: users may over-trust recommendations in contexts where constraints matter.
+
+FM-04: Alternatives not contrasted
+- Pattern: trade-offs are presented, but opposing viewpoints/conditions are not clearly contrasted at claim level.
+- User impact: users may miss “when the opposite choice is better.”
