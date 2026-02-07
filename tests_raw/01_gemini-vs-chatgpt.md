@@ -67,7 +67,29 @@ Yes — see Raw Answer (inline citations and links).
 
 ## Observations (no conclusions)
 
-<PASTE HERE>
+The response opens with a high-level comparative statement, presenting Gemini and ChatGPT as having “strong but distinct strengths” for research tasks.
+
+The answer is structured into multiple sections (“Key differences”, “Trade-offs by task type”, “Practical tips”, “Illustration”), indicating an attempt to provide a comprehensive comparison.
+
+Gemini is consistently described as plan-driven, structured, and academically oriented, with emphasis on explicit citations, cross-referencing, and methodology.
+
+ChatGPT is consistently described as faster, more conversational, and better suited for rapid iteration, drafting, and exploratory research.
+
+Comparative claims are supported primarily by secondary sources such as blog posts, reviews, and Reddit discussions, rather than primary technical documentation.
+
+Several statements rely on generalized characterizations (e.g., “users report”, “reviews note”, “comparative analyses describe”) rather than direct empirical benchmarks.
+
+Citations are provided inline throughout the answer, but many claims reference qualitative assessments (reviews, anecdotal reports) instead of measurable criteria.
+
+The tone of the response is confident and advisory, presenting differences and trade-offs as established patterns.
+
+Mixed or uncertain areas (e.g., handling paywalled or niche sources) are acknowledged, but framed through reported user experiences rather than explicit uncertainty markers.
+
+Task-based recommendations are provided, mapping each tool to specific use cases (literature review, exploratory research, policy briefing).
+
+The response includes prescriptive guidance (“Define your priority: speed vs. rigor”, “Use prompts to steer sources”), moving beyond comparison into usage advice.
+
+A closing call-to-action invites the user to describe their specific research task for further tailored recommendations.
 
 ## Contract Checks
 
