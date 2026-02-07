@@ -95,11 +95,27 @@ A closing call-to-action invites the user to describe their specific research ta
 
 ### P1 Sources/Evidence
 
-<PASTE HERE>
+Multiple claims in the response are accompanied by inline citations and external links.
+
+Sources are predominantly secondary materials (blog posts, reviews, Reddit discussions) rather than primary documentation or official benchmarks.
+
+Several comparative statements are supported by aggregated or interpretive sources rather than direct evidence.
+
+The presence of sources allows post-hoc verification, but the linkage between specific claims and specific sources is not always explicit.
+
+No distinction is made between primary evidence and opinion-based or anecdotal sources.
 
 ### P2 Uncertainty/Alternatives
 
-<PASTE HERE>
+The response uses confident and advisory language when presenting comparative differences.
+
+Explicit uncertainty markers (e.g., “may vary”, “depends on context”, “limited data”) are used sparingly.
+
+Some limitations are implied through references to user reports and reviews, rather than stated directly.
+
+Alternative interpretations or opposing viewpoints are not explicitly contrasted within the same claims.
+
+The answer does not clearly differentiate between established capabilities and reported user perceptions.
 
 ## Notes
 
