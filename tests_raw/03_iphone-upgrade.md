@@ -14,7 +14,7 @@ Perplexity AI
 
 ## Access Path
 
-Free
+Free (logged-out)
 
 ## Query
 
@@ -40,7 +40,7 @@ Free
 
 <PASTE HERE>
 
-## Notes
+## Failure Modes (derived from P1/P2, decision-oriented)
 
 <PASTE HERE>
 

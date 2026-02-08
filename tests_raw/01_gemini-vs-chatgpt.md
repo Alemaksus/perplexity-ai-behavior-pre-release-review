@@ -24,7 +24,7 @@ Compare Gemini and ChatGPT for research tasks. What are the key differences and 
 
 Gemini and ChatGPT offer strong but distinct strengths for research tasks, with trade-offs around depth, speed, and sources.
 
-Key differences
+Key differences:
 
 - Approach to research
   - Gemini tends to follow an explicit research plan, often presenting rigorous, citation-backed results and a scholarly tone. This can yield highly structured analyses with clear sourcing. (Source patterns from reviews note the plan-driven, academic style) [reddit](https://www.reddit.com/r/ChatGPTPro/comments/1jzvbkn/chatgpt_vs_gemini_deep_research/)
@@ -39,7 +39,8 @@ Key differences
   - ChatGPT often delivers faster first-pass results, which aids quick iteration and experimentation. (User tests and reviews note speed advantages) [skywork](https://skywork.ai/blog/ai-agent/gemini-vs-chatgpt-research/)
   - Gemini can be slower but more thorough, trading speed for careful sourcing and structured reasoning. (Comparative tests discuss meticulous citations and cross-referencing) [digitalocean](https://www.digitalocean.com/resources/articles/gemini-vs-chatgpt)
 
-Trade-offs by task type
+Trade-offs by task type:
+
 - For literature reviews, academic writing, or where precise citations are essential
   - Gemini often has the edge due to plan-driven research, cross-referencing, and formal sourcing. This supports rigorous argumentation and traceable evidence. (Source-focused descriptions highlight citation rigor) [reddit](https://www.reddit.com/r/ChatGPTPro/comments/1jzvbkn/chatgpt_vs_gemini_deep_research/)
 - For rapid exploratory research, brainstorming, or drafting
@@ -49,12 +50,14 @@ Trade-offs by task type
 - For structured analysis with clear methodology
   - Gemini’s methodology-oriented outputs can help ensure transparent reasoning paths and reproducible conclusions. (Reports on Gemini’s methodological emphasis) [skywork](https://skywork.ai/blog/ai-agent/gemini-vs-chatgpt-research/)
 
-Practical tips
+Practical tips:
+
 - Define your priority: speed vs. rigor. If you need quick, iterative ideas, start with ChatGPT; if you need a report with citations and methodology, lean toward Gemini. (General guidance from comparative analyses) [digitalocean](https://www.digitalocean.com/resources/articles/gemini-vs-chatgpt)
 - Use prompts to steer sources. For Gemini, request a plan and explicit sources; for ChatGPT, ask for step-by-step reasoning and a sources list when possible. (Observed usage patterns in reviews) [reddit](https://www.reddit.com/r/ChatGPTPro/comments/1jzvbkn/chatgpt_vs_gemini_deep_research/)
 - Verify critical facts with primary sources. Regardless of tool, cross-check key claims against the cited literature or official sources. (Best-practice academic advice implied by the emphasis on citations) [skywork](https://skywork.ai/blog/ai-agent/gemini-vs-chatgpt-research/)
 
-Illustration: choosing by task type
+Illustration: choosing by task type:
+
 - Literature review: Gemini with a plan, citations, and cross-references.
 - Quick background: ChatGPT for fast summaries and plain-language explanations.
 - Policy briefing: Gemini for a structured, source-backed memo; ChatGPT for a concise executive summary with talking points.
