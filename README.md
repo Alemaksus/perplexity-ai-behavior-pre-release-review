@@ -1,85 +1,30 @@
-# Pre-Release AI Behavior & Risk Review
+# Pre-Release Decision Risk Assessment - Perplexity (Demo Case)
 
-This repository demonstrates a public, OSINT-based **pre-release behavioral risk review** of an AI product, using Perplexity AI as an example case.
+## What This Repository Demonstrates
 
-The goal of this project is to show **what kinds of decision and trust risks can emerge from AI behavior before a product is released or widely adopted**, even when answers appear reasonable, well-written, and sourced.
+This repository demonstrates a structured **pre-release decision risk assessment** for an AI product, using Perplexity AI as a demo case. The focus is on **decision exposure** and **behavioral presentation patterns** in user-facing answers—how sources are surfaced, how uncertainty is signaled, and how decision framing can shape user interpretation. The contents illustrate the form and tone of an executive-facing artifact that may be used prior to release or adoption.
 
-This is not a product comparison, benchmark, or factual accuracy audit.
+## Scope & Boundaries
 
----
+- **Access mode**: Free, logged-out path only
+- **Evidence base**: OSINT snapshot (publicly observable behavior and cited sources)
+- **Time-bounded**: snapshot-in-time; behavior and UI signaling may change over time
+- **No privileged visibility**: no internal system details, configurations, or operational telemetry
 
-## What This Project Shows
+## Intended Audience
 
-This repository illustrates how AI systems can introduce **business and decision risks** through:
-
-- how sources are selected and combined
-- how uncertainty is communicated (or not)
-- how recommendations and alternatives are framed
-- how authoritative tone interacts with mixed-quality evidence
-
-The included review focuses on **behavioral patterns**, not on whether individual answers are “correct”.
-
----
-
-## What Is Included
-
-- **Five raw test cases** representing common real-world user journeys:
-  - comparative evaluation
-  - capability boundary inquiry
-  - purchase decision support
-  - drawback-focused inquiry
-  - production readiness guidance
-- **A synthesized pre-release risk review** identifying cross-cutting risk classes across these journeys
-- Clear **scope and limitations** to avoid overgeneralization
-
-All observations are based on publicly accessible behavior using free, logged-out access only.
-
----
+- Product owners and release managers evaluating decision-critical exposure
+- AI integration leads assessing how outputs may be interpreted in real workflows
+- Risk/compliance stakeholders reviewing trust calibration and evidence signaling
+- Engineering and QA leads aligning user-facing behavior with release posture
 
 ## What This Is Not
 
-This project intentionally does **not** include:
+- An accuracy audit, benchmark, or performance evaluation
+- A claim of correctness or failure for any individual answer
+- A comprehensive coverage statement for all user journeys, features, or environments
+- An internal systems review (no API, no paid features, no privileged access)
 
-- step-by-step testing methodology
-- internal checklists or templates
-- instructions for reproducing the analysis
-- recommendations for how to “fix” the product
-- guarantees of completeness or coverage
+## How This Artifact Can Be Used
 
-The purpose is to demonstrate **the type of insight and framing** such a review provides, not to publish a reusable recipe.
-
----
-
-## Who This Is For
-
-This kind of review is relevant for:
-
-- Founders and product owners preparing an AI-related release
-- CTOs and tech leads responsible for risk and reliability
-- Teams integrating AI into user-facing decision flows
-- Organizations seeking to reduce uncertainty before launch or rollout
-
-It is especially useful when AI output may influence **user decisions, trust, or expectations**.
-
----
-
-## Scope & Limitations
-
-- Snapshot-in-time behavior only
-- Free, logged-out access path
-- No API access or paid features
-- OSINT-based review
-- No evaluation of factual correctness or internal model design
-
-Observed behavior and sourcing may change over time.
-
----
-
-## How This Can Be Used
-
-This repository serves as a **public example artifact** of a pre-release AI behavior & risk review.  
-Similar reviews can be performed for other AI products or features, tailored to their specific user journeys, business context, and release goals.
-
----
-
-*This project is provided for demonstration and discussion purposes only.*
+The assessment can be used as an executive-facing input when considering pre-release or pre-adoption decisions, particularly where AI outputs may influence purchasing, operational, or implementation choices. It can support discussion about where users may face higher verification friction, where confidence may be miscalibrated, and where decision framing may increase or reduce decision quality. The artifact is intended to help clarify risk posture for decision-critical use versus low-stakes informational use, within the stated OSINT snapshot constraints.
