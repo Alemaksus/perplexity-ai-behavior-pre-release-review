@@ -4,18 +4,18 @@
 << /Type /Catalog /Pages 2 0 R >>
 endobj
 2 0 obj
-<< /Type /Pages /Kids [5 0 R 7 0 R 9 0 R 11 0 R] /Count 4 >>
+<< /Type /Pages /Kids [5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R] /Count 6 >>
 endobj
 3 0 obj
-<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
 endobj
 4 0 obj
-<< /Length 3169 >>
+<< /Length 2656 >>
 stream
 BT
-/F1 10 Tf
-72 710 Td
-14 TL
+/F1 9 Tf
+54 549 Td
+12 TL
 (Pre-Release Decision Risk Assessment) Tj
 T*
 (Perplexity \(Demo Case\)) Tj
@@ -50,11 +50,21 @@ T*
 T*
 () Tj
 T*
-(This assessment consolidates decision-relevant behavioral risk patterns observed across five representative user journeys in Perplexity \(free, logged-out path\). It does not evaluate the factual correctness of answers; it focuses on how outputs present sources, communicate uncertainty, and frame decision guidance.) Tj
+(This assessment consolidates decision-relevant behavioral risk patterns observed across five representative user journeys in) Tj
+T*
+(Perplexity \(free, logged-out path\). It does not evaluate the factual correctness of answers; it focuses on how outputs) Tj
+T*
+(present sources, communicate uncertainty, and frame decision guidance.) Tj
 T*
 () Tj
 T*
-(Across the assessed journeys, recurring patterns may increase verification burden and may reduce decision quality when outputs appear authoritative while relying on mixed-evidence sources, under-signaled uncertainty, and incomplete alternative framing. These patterns are relevant to pre-release and pre-adoption decisions because they influence user expectations, trust calibration, and the likelihood that users act on outputs without sufficient context.) Tj
+(Across the assessed journeys, recurring patterns may increase verification burden and may reduce decision quality when) Tj
+T*
+(outputs appear authoritative while relying on mixed-evidence sources, under-signaled uncertainty, and incomplete alternative) Tj
+T*
+(framing. These patterns are relevant to pre-release and pre-adoption decisions because they influence user expectations,) Tj
+T*
+(trust calibration, and the likelihood that users act on outputs without sufficient context.) Tj
 T*
 () Tj
 T*
@@ -62,7 +72,15 @@ T*
 T*
 () Tj
 T*
-(Intended for product owners, release managers, AI integration leads, and risk/compliance stakeholders. Relevant for pre-release reviews, pre-adoption evaluation, and decision-critical feature rollouts where user actions may be influenced by AI outputs. Supports decisions about release posture and the degree of exposure appropriate for decision-critical usage. Helps identify where users may face higher verification friction or may miscalibrate confidence due to presentation patterns. Does not replace accuracy testing, security review, or internal system validation.) Tj
+(Intended for product owners, release managers, AI integration leads, and risk/compliance stakeholders. Relevant for) Tj
+T*
+(pre-release reviews, pre-adoption evaluation, and decision-critical feature rollouts where user actions may be influenced by) Tj
+T*
+(AI outputs. Supports decisions about release posture and the degree of exposure appropriate for decision-critical usage.) Tj
+T*
+(Helps identify where users may face higher verification friction or may miscalibrate confidence due to presentation) Tj
+T*
+(patterns. Does not replace accuracy testing, security review, or internal system validation.) Tj
 T*
 () Tj
 T*
@@ -78,8 +96,23 @@ T*
 T*
 () Tj
 T*
-(This document is intended as a pre-release or pre-adoption assessment artifact to support risk-informed decisions, not as a comprehensive evaluation of system correctness or performance.) Tj
+(This document is intended as a pre-release or pre-adoption assessment artifact to support risk-informed decisions, not as a) Tj
 T*
+(comprehensive evaluation of system correctness or performance.) Tj
+T*
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 792 612] /Resources << /Font << /F1 3 0 R >> >> /Contents 4 0 R >>
+endobj
+6 0 obj
+<< /Length 2186 >>
+stream
+BT
+/F1 9 Tf
+54 549 Td
+12 TL
 () Tj
 T*
 (Scope & Constraints) Tj
@@ -108,19 +141,6 @@ T*
 T*
 () Tj
 T*
-ET
-endstream
-endobj
-5 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 4 0 R >>
-endobj
-6 0 obj
-<< /Length 3496 >>
-stream
-BT
-/F1 10 Tf
-72 710 Td
-14 TL
 (Assessed User Journeys) Tj
 T*
 () Tj
@@ -141,7 +161,9 @@ T*
 T*
 () Tj
 T*
-(These journeys are decision-exposed because users may interpret the output as advisory guidance for real choices \(e.g., selection, adoption, purchase, rollout posture\).) Tj
+(These journeys are decision-exposed because users may interpret the output as advisory guidance for real choices \(e.g.,) Tj
+T*
+(selection, adoption, purchase, rollout posture\).) Tj
 T*
 () Tj
 T*
@@ -153,7 +175,13 @@ T*
 T*
 () Tj
 T*
-(Responses combine authoritative sources \(official documentation, established media\) with anecdotal or speculative sources \(community discussions, rumors, blog posts\) without clearly signaling differences in evidentiary weight. Claims supported by secondary or interpretive sources may read with the same authority as claims backed by primary documentation. Users may overestimate the reliability of speculative statements or treat anecdotal experiences as broadly representative.) Tj
+(Responses combine authoritative sources \(official documentation, established media\) with anecdotal or speculative sources) Tj
+T*
+(\(community discussions, rumors, blog posts\) without clearly signaling differences in evidentiary weight. Claims supported by) Tj
+T*
+(secondary or interpretive sources may read with the same authority as claims backed by primary documentation. Users may) Tj
+T*
+(overestimate the reliability of speculative statements or treat anecdotal experiences as broadly representative.) Tj
 T*
 () Tj
 T*
@@ -161,17 +189,38 @@ T*
 T*
 () Tj
 T*
-(- Observed across: Comparative evaluation; Capability boundary inquiry; Purchase decision support; Drawback-focused inquiry; Production readiness guidance) Tj
+(- Observed across: Comparative evaluation; Capability boundary inquiry; Purchase decision support; Drawback-focused inquiry;) Tj
+T*
+(  Production readiness guidance) Tj
 T*
 (- Decision impact potential: High) Tj
 T*
 () Tj
 T*
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 792 612] /Resources << /Font << /F1 3 0 R >> >> /Contents 6 0 R >>
+endobj
+8 0 obj
+<< /Length 2638 >>
+stream
+BT
+/F1 9 Tf
+54 549 Td
+12 TL
 (Risk Class 2: Uncertainty Not Elevated as a Decision Factor) Tj
 T*
 () Tj
 T*
-(Uncertainty is often communicated indirectly through conditional language rather than made explicit as a first-class decision input. For unreleased products or evolving capabilities, speculative information can appear in a similar tone to confirmed information. Users may underestimate the risk of acting on incomplete data or over-trust guidance in contexts where constraints materially matter.) Tj
+(Uncertainty is often communicated indirectly through conditional language rather than made explicit as a first-class) Tj
+T*
+(decision input. For unreleased products or evolving capabilities, speculative information can appear in a similar tone to) Tj
+T*
+(confirmed information. Users may underestimate the risk of acting on incomplete data or over-trust guidance in contexts) Tj
+T*
+(where constraints materially matter.) Tj
 T*
 () Tj
 T*
@@ -179,7 +228,9 @@ T*
 T*
 () Tj
 T*
-(- Observed across: Comparative evaluation; Capability boundary inquiry; Purchase decision support; Drawback-focused inquiry; Production readiness guidance) Tj
+(- Observed across: Comparative evaluation; Capability boundary inquiry; Purchase decision support; Drawback-focused inquiry;) Tj
+T*
+(  Production readiness guidance) Tj
 T*
 (- Decision impact potential: High) Tj
 T*
@@ -189,7 +240,13 @@ T*
 T*
 () Tj
 T*
-(Trade-offs are discussed, but opposing viewpoints or “when the opposite choice is better” conditions are not consistently contrasted at the claim level. Alternative decision paths \(such as deferring a decision until official information is available\) may be implied but are not clearly framed as viable options. Users may miss safer or more appropriate alternatives.) Tj
+(Trade-offs are discussed, but opposing viewpoints or “when the opposite choice is better” conditions are not consistently) Tj
+T*
+(contrasted at the claim level. Alternative decision paths \(such as deferring a decision until official information is) Tj
+T*
+(available\) may be implied but are not clearly framed as viable options. Users may miss safer or more appropriate) Tj
+T*
+(alternatives.) Tj
 T*
 () Tj
 T*
@@ -197,7 +254,9 @@ T*
 T*
 () Tj
 T*
-(- Observed across: Comparative evaluation; Capability boundary inquiry; Purchase decision support; Production readiness guidance) Tj
+(- Observed across: Comparative evaluation; Capability boundary inquiry; Purchase decision support; Production readiness) Tj
+T*
+(  guidance) Tj
 T*
 (- Decision impact potential: Medium) Tj
 T*
@@ -207,28 +266,21 @@ T*
 T*
 () Tj
 T*
-(Sources are present \(inline or as a list\), but the mapping between specific claims and specific sources is not always explicit. Multiple sources may support a category of statements without indicating which source substantiates which claim. This increases verification effort and raises the likelihood that users accept conclusions without checking alignment.) Tj
+(Sources are present \(inline or as a list\), but the mapping between specific claims and specific sources is not always) Tj
+T*
+(explicit. Multiple sources may support a category of statements without indicating which source substantiates which claim.) Tj
+T*
+(This increases verification effort and raises the likelihood that users accept conclusions without checking alignment.) Tj
 T*
 () Tj
 T*
 (Assessment Tags \(Risk Class 4\)) Tj
 T*
-ET
-endstream
-endobj
-7 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 6 0 R >>
-endobj
-8 0 obj
-<< /Length 3749 >>
-stream
-BT
-/F1 10 Tf
-72 710 Td
-14 TL
 () Tj
 T*
-(- Observed across: Comparative evaluation; Capability boundary inquiry; Purchase decision support; Drawback-focused inquiry; Production readiness guidance) Tj
+(- Observed across: Comparative evaluation; Capability boundary inquiry; Purchase decision support; Drawback-focused inquiry;) Tj
+T*
+(  Production readiness guidance) Tj
 T*
 (- Decision impact potential: Medium) Tj
 T*
@@ -238,7 +290,26 @@ T*
 T*
 () Tj
 T*
-(Responses often use advisory or prescriptive language even when underlying evidence is mixed, speculative, or anecdotal. Conditional limitations may read as general characteristics, and drawbacks are sometimes immediately softened by mitigation within the same narrative. Users may make decisions based on perceived consensus rather than on the strength of primary evidence.) Tj
+(Responses often use advisory or prescriptive language even when underlying evidence is mixed, speculative, or anecdotal.) Tj
+T*
+(Conditional limitations may read as general characteristics, and drawbacks are sometimes immediately softened by mitigation) Tj
+T*
+ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 792 612] /Resources << /Font << /F1 3 0 R >> >> /Contents 8 0 R >>
+endobj
+10 0 obj
+<< /Length 2895 >>
+stream
+BT
+/F1 9 Tf
+54 549 Td
+12 TL
+(within the same narrative. Users may make decisions based on perceived consensus rather than on the strength of primary) Tj
+T*
+(evidence.) Tj
 T*
 () Tj
 T*
@@ -246,7 +317,9 @@ T*
 T*
 () Tj
 T*
-(- Observed across: Comparative evaluation; Capability boundary inquiry; Purchase decision support; Production readiness guidance) Tj
+(- Observed across: Comparative evaluation; Capability boundary inquiry; Purchase decision support; Production readiness) Tj
+T*
+(  guidance) Tj
 T*
 (- Decision impact potential: High) Tj
 T*
@@ -256,7 +329,13 @@ T*
 T*
 () Tj
 T*
-(Mitigation strategies and “best practices” are suggested, but criteria for prioritizing which constraints are most critical or most likely to occur are not clearly provided. Guardrails and reviews are described as mitigations without evidence or criteria to evaluate whether they are sufficient. Users may invest effort in low-impact mitigations while underestimating residual risk.) Tj
+(Mitigation strategies and “best practices” are suggested, but criteria for prioritizing which constraints are most critical) Tj
+T*
+(or most likely to occur are not clearly provided. Guardrails and reviews are described as mitigations without evidence or) Tj
+T*
+(criteria to evaluate whether they are sufficient. Users may invest effort in low-impact mitigations while underestimating) Tj
+T*
+(residual risk.) Tj
 T*
 () Tj
 T*
@@ -274,27 +353,37 @@ T*
 T*
 () Tj
 T*
-(```text) Tj
+(Risk Class                                           Decision Impact   Likelihood in observed journeys   User Exposure) Tj
 T*
-(Risk Class                                           Decision Impact   Likelihood in observed journeys   User Exposure   Rationale) Tj
+(Rationale) Tj
 T*
 (                                                   \(L/M/H\)           \(L/M/H\)                          \(L/M/H\)) Tj
 T*
 (---------------------------------------------------------------------------------------------------------------) Tj
 T*
-(Mixed Source Authority Without Signaling             H                 H                                 H              Mixed-evidence sourcing appears across journeys without consistent signaling of authority.) Tj
+(Mixed Source Authority Without Signaling             H                 H                                 H) Tj
 T*
-(Uncertainty Not Elevated as a Decision Factor        H                 M                                 H              Uncertainty is often indirect, which can elevate risk in decision-exposed usage.) Tj
+(Mixed-evidence sourcing appears across journeys without consistent signaling of authority.) Tj
 T*
-(Alternatives Not Explicitly Contrasted               M                 M                                 M              Trade-offs appear, but counter-conditions and deferral paths are not consistently framed.) Tj
+(Uncertainty Not Elevated as a Decision Factor        H                 M                                 H) Tj
 T*
-(Claim-to-Source Traceability Friction                M                 H                                 M              Sources are present but claim-to-source mapping often requires additional interpretation.) Tj
+(Uncertainty is often indirect, which can elevate risk in decision-exposed usage.) Tj
 T*
-(Confidence Level Not Calibrated to Evidence Strength H                 M                                 M              Advisory framing can outpace evidence strength, especially where evidence is heterogeneous.) Tj
+(Alternatives Not Explicitly Contrasted               M                 M                                 M) Tj
 T*
-(Mitigation Guidance Without Prioritization Criteria  M                 M                                 M              Mitigation guidance appears without prioritization cues, increasing residual decision ambiguity.) Tj
+(Trade-offs appear, but counter-conditions and deferral paths are not consistently framed.) Tj
 T*
-(```) Tj
+(Claim-to-Source Traceability Friction                M                 H                                 M) Tj
+T*
+(Sources are present but claim-to-source mapping often requires additional interpretation.) Tj
+T*
+(Confidence Level Not Calibrated to Evidence Strength H                 M                                 M) Tj
+T*
+(Advisory framing can outpace evidence strength, especially where evidence is heterogeneous.) Tj
+T*
+(Mitigation Guidance Without Prioritization Criteria  M                 M                                 M) Tj
+T*
+(Mitigation guidance appears without prioritization cues, increasing residual decision ambiguity.) Tj
 T*
 () Tj
 T*
@@ -302,6 +391,19 @@ T*
 T*
 () Tj
 T*
+ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 792 612] /Resources << /Font << /F1 3 0 R >> >> /Contents 10 0 R >>
+endobj
+12 0 obj
+<< /Length 2833 >>
+stream
+BT
+/F1 9 Tf
+54 549 Td
+12 TL
 (Decision contexts considered:) Tj
 T*
 () Tj
@@ -318,48 +420,55 @@ T*
 T*
 (- Low-stakes informational use) Tj
 T*
-ET
-endstream
-endobj
-9 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 8 0 R >>
-endobj
-10 0 obj
-<< /Length 3785 >>
-stream
-BT
-/F1 10 Tf
-72 710 Td
-14 TL
 () Tj
 T*
 (Matrix legend: H = High, M = Medium, L = Low) Tj
 T*
 () Tj
 T*
-(```text) Tj
+(Risk Class                                           Purchase & Pricing   Career / HR   Technical Impl.   Security /) Tj
 T*
-(Risk Class                                           Purchase & Pricing   Career / HR   Technical Impl.   Security / Compliance   Health-like / High-trust   Low-stakes info) Tj
+(Compliance   Health-like / High-trust   Low-stakes info) Tj
 T*
 (---------------------------------------------------------------------------------------------------------------) Tj
 T*
-(Mixed Source Authority Without Signaling             H                  M            M                M                      H                       M) Tj
+(Mixed Source Authority Without Signaling             H                  M            M                M) Tj
 T*
-(Uncertainty Not Elevated as a Decision Factor        H                  M            M                M                      H                       L) Tj
+(H                       M) Tj
 T*
-(Alternatives Not Explicitly Contrasted               M                  M            M                M                      M                       L) Tj
+(Uncertainty Not Elevated as a Decision Factor        H                  M            M                M) Tj
 T*
-(Claim-to-Source Traceability Friction                M                  M            M                M                      M                       L) Tj
+(H                       L) Tj
 T*
-(Confidence Level Not Calibrated to Evidence Strength H                  M            M                M                      H                       L) Tj
+(Alternatives Not Explicitly Contrasted               M                  M            M                M) Tj
 T*
-(Mitigation Guidance Without Prioritization Criteria  L                  L            H                H                      M                       L) Tj
+(M                       L) Tj
 T*
-(```) Tj
+(Claim-to-Source Traceability Friction                M                  M            M                M) Tj
+T*
+(M                       L) Tj
+T*
+(Confidence Level Not Calibrated to Evidence Strength H                  M            M                M) Tj
+T*
+(H                       L) Tj
+T*
+(Mitigation Guidance Without Prioritization Criteria  L                  L            H                H) Tj
+T*
+(M                       L) Tj
 T*
 () Tj
 T*
-(Decision quality implications: The observed patterns can increase verification effort because users must interpret source authority, reconstruct claim-to-source links, and infer uncertainty levels from indirect cues. When alternatives are not clearly contrasted, users may default to the most action-oriented framing rather than consider deferral or different decision paths. In higher-trust contexts, these patterns can amplify confidence miscalibration and reduce the clarity of what is known versus what is inferred. In lower-stakes informational use, impacts tend to be limited, but verification friction can still shape user expectations of reliability.) Tj
+(Decision quality implications: The observed patterns can increase verification effort because users must interpret source) Tj
+T*
+(authority, reconstruct claim-to-source links, and infer uncertainty levels from indirect cues. When alternatives are not) Tj
+T*
+(clearly contrasted, users may default to the most action-oriented framing rather than consider deferral or different) Tj
+T*
+(decision paths. In higher-trust contexts, these patterns can amplify confidence miscalibration and reduce the clarity of) Tj
+T*
+(what is known versus what is inferred. In lower-stakes informational use, impacts tend to be limited, but verification) Tj
+T*
+(friction can still shape user expectations of reliability.) Tj
 T*
 () Tj
 T*
@@ -371,19 +480,44 @@ T*
 T*
 (Highest-risk contexts: Purchase & Pricing Decisions; Health-like / High-trust Decisions; Technical Implementation Decisions) Tj
 T*
-(Primary drivers: Mixed Source Authority Without Signaling; Uncertainty Not Elevated as a Decision Factor; Claim-to-Source Traceability Friction) Tj
+(Primary drivers: Mixed Source Authority Without Signaling; Uncertainty Not Elevated as a Decision Factor; Claim-to-Source) Tj
+T*
+(Traceability Friction) Tj
 T*
 (Verification friction level: Medium–High) Tj
 T*
 (Readiness posture: Suitable for low-stakes use; decision-critical use requires stronger signaling) Tj
 T*
+ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 792 612] /Resources << /Font << /F1 3 0 R >> >> /Contents 12 0 R >>
+endobj
+14 0 obj
+<< /Length 1285 >>
+stream
+BT
+/F1 9 Tf
+54 549 Td
+12 TL
 () Tj
 T*
 (Decision Impact Overview) Tj
 T*
 () Tj
 T*
-(Together, these patterns may reduce decision quality by inflating perceived certainty and obscuring the strength of supporting evidence. Under-communicated uncertainty can increase the chance of acting on incomplete or evolving information. When alternatives are not clearly contrasted, users may default to immediate action even when deferral or a different choice would better fit the decision context. Mixed source authority without signaling can shift decisions toward perceived consensus or sentiment rather than evidence strength. Conceptual guidance without prioritization criteria can leave users uncertain about which constraints matter most for their decision.) Tj
+(Together, these patterns may reduce decision quality by inflating perceived certainty and obscuring the strength of) Tj
+T*
+(supporting evidence. Under-communicated uncertainty can increase the chance of acting on incomplete or evolving information.) Tj
+T*
+(When alternatives are not clearly contrasted, users may default to immediate action even when deferral or a different choice) Tj
+T*
+(would better fit the decision context. Mixed source authority without signaling can shift decisions toward perceived) Tj
+T*
+(consensus or sentiment rather than evidence strength. Conceptual guidance without prioritization criteria can leave users) Tj
+T*
+(uncertain about which constraints matter most for their decision.) Tj
 T*
 () Tj
 T*
@@ -391,30 +525,40 @@ T*
 T*
 () Tj
 T*
-(This assessment does not assert system failure or answer inaccuracy; it documents observed patterns in how information is presented in a limited snapshot. The evidence base is OSINT and reflects free, logged-out behavior only, without API access or internal visibility. Observed behavior and signaling may change over time, and findings should be interpreted within the stated scope and constraints.) Tj
+(This assessment does not assert system failure or answer inaccuracy; it documents observed patterns in how information is) Tj
+T*
+(presented in a limited snapshot. The evidence base is OSINT and reflects free, logged-out behavior only, without API access) Tj
+T*
+(or internal visibility. Observed behavior and signaling may change over time, and findings should be interpreted within the) Tj
+T*
+(stated scope and constraints.) Tj
 T*
 ET
 endstream
 endobj
-11 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 10 0 R >>
+15 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 792 612] /Resources << /Font << /F1 3 0 R >> >> /Contents 14 0 R >>
 endobj
 xref
-0 12
+0 16
 0000000000 65535 f 
 0000000015 00000 n 
 0000000064 00000 n 
-0000000140 00000 n 
-0000000210 00000 n 
-0000003430 00000 n 
-0000003556 00000 n 
-0000007103 00000 n 
-0000007229 00000 n 
-0000011029 00000 n 
-0000011155 00000 n 
-0000014992 00000 n 
+0000000154 00000 n 
+0000000222 00000 n 
+0000002929 00000 n 
+0000003055 00000 n 
+0000005292 00000 n 
+0000005418 00000 n 
+0000008107 00000 n 
+0000008233 00000 n 
+0000011180 00000 n 
+0000011308 00000 n 
+0000014193 00000 n 
+0000014321 00000 n 
+0000015658 00000 n 
 trailer
-<< /Size 12 /Root 1 0 R >>
+<< /Size 16 /Root 1 0 R >>
 startxref
-15120
+15786
 %%EOF
