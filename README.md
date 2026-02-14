@@ -1,4 +1,4 @@
-# Pre-Release Decision Risk Assessment - Perplexity (Demo Case)
+# Pre-Release Decision Risk Assessment — Perplexity (Demo Case)
 
 ## What This Repository Demonstrates
 

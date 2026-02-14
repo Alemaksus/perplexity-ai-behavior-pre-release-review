@@ -1,8 +1,4 @@
-Pre-Release Decision Risk Assessment
-Perplexity (Demo Case)
-Version: v1.0
-Snapshot date: 2026-02-07 to 2026-02-08
-Access mode: Free, logged-out
+Pre-Release Decision Risk Assessment Perplexity (Demo Case)
 
 Metadata
 
