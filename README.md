@@ -1,3 +1,15 @@
+# AIRRA — AI Pre-Release Stress Test Framework
+
+Independent risk-focused stress assessment framework for AI systems prior to public release.
+
+This repository contains:
+
+- A commercial description of the AI Pre-Release Stress Test
+- A sample executive Decision Brief
+- A reference demo case (Perplexity)
+
+---
+
 # Pre-Release Decision Risk Assessment — Perplexity (Demo Case)
 
 ## What This Repository Demonstrates
